@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World News Admin</title>
+    <link rel="stylesheet" href="/assets/admin-styles.css" />
+  </head>
+  <body>
+    <header>Admin</header>
+    <main>
+      <nav id="header-navigation">
+        <div id="header-navigation-link">
+          <a href="index.html">Home</a>
+          <a href="category.html">Category</a>
+          <a href="subcategory.html">SubCategory</a>
+          <a href="post.html">Post</a>
+        </div>
+        <div id="header-navigation-link-profile">
+          <a href="my-account.html">My Account</a>
+          <a href="">LogOut</a>
+        </div>
+      </nav>
+      <section id="category-form-section">
+        <form action="" id="category-form">
+          <div class="">
+            <label for="category">Category :</label>
+            <select name="category" id="category">
+              <option value="" selected>Select</option>
+              <option value="1">Category 1</option>
+              <option value="2">Category 2</option>
+            </select>
+          </div>
+          <div class="">
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" placeholder="enter name" />
+          </div>
+          <div class="">
+            <label for="slug">Slug :</label>
+            <input type="text" name="slug" id="slug" placeholder="enter slug" />
+          </div>
+          <div class="">
+            <label for="meta_title">Meta title :</label>
+            <input type="text" name="meta_title" id="meta_title" placeholder="enter meta title" />
+          </div>
+          <div class="">
+            <label for="meta_description">Meta description :</label>
+            <input type="text" name="meta_description" id="meta_description" placeholder="enter meta description" />
+          </div>
+          <div class="">
+            <label for="meta_keyword">Meta keyword :</label>
+            <input type="text" name="meta_keyword" id="meta_keyword" placeholder="enter meta keyword" />
+          </div>
+          <div class="">
+            <button type="button" class="form-submit-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>WN @2024</footer>
+  </body>
+</html>

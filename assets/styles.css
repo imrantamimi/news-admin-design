@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+header {
+  background-color: aqua;
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 2px;
+}
+
+main {
+  background-color: aquamarine;
+  border: 2px black solid;
+  padding: 1rem;
+}
+.card {
+  border: 2px black solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-header {
+  border: 2px black solid;
+  padding: 1rem;
+  align-self: center;
+  margin: 2px;
+}
+.card-body {
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 2px;
+}
+.card-body form {
+  display: flex;
+  flex-direction: column;
+}
+.card-body form input {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 0.75rem;
+  margin: 2px;
+}
+
+.card-body form button {
+  width: 25rem;
+  height: 2rem;
+  margin: 2px;
+}
+
+.card-footer {
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 2px;
+}
+footer {
+  background-color: bisque;
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 2px;
+}

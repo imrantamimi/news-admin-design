@@ -1,6 +1,7 @@
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
   background-color: #5f9ea0;
 }
 

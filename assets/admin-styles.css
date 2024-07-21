@@ -5,12 +5,12 @@ body {
   background-color: #5f9ea0;
 }
 
-header {
+#header-title {
   align-self: center;
   margin: 1rem;
 }
 
-main nav {
+#header-navigation {
   background-color: antiquewhite;
   display: flex;
   flex-direction: row;
